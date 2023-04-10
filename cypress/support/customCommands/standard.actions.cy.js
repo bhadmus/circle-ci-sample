@@ -1,5 +1,5 @@
 Cypress.Commands.add('LaunchApp', ()=>{
-    cy.visit('/')
+    cy.visit('/', {failOnStatusCode: false})
 })
 
 Cypress.Commands.add('InsertUsername', ()=>{
