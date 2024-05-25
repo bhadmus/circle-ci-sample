@@ -1,8 +1,9 @@
-/.idea
-/node_modules
-/log
+.idea/
+node_modules/
+log/
 .DS_Store
-/.vscode
-/dist
-/results
-/cypress/videos
+.vscode/
+dist/
+results/
+cypress/videos
+cypress/screenshots
